@@ -1,0 +1,20 @@
+{"id": "q-001", "input": {"prompt": "The renewal charged my card twice on the same day, I want one of the charges reversed."}, "expected": "billing", "slices": ["intent:billing"], "meta": {"domain": "support-intent"}}
+{"id": "q-002", "input": {"prompt": "My invoice lists an add-on I never signed up for, please look into the amount."}, "expected": "billing", "slices": ["intent:billing"], "meta": {"domain": "support-intent"}}
+{"id": "q-003", "input": {"prompt": "Do you have a plan that bills yearly instead of monthly?"}, "expected": "billing", "slices": ["intent:billing"], "meta": {"domain": "support-intent"}}
+{"id": "q-004", "input": {"prompt": "I need a GST invoice for last month's payment with my company details on it."}, "expected": "billing", "slices": ["intent:billing"], "meta": {"domain": "support-intent"}}
+{"id": "q-005", "input": {"prompt": "Why did the price of my subscription go up without any notice email?"}, "expected": "billing", "slices": ["intent:billing"], "meta": {"domain": "support-intent"}}
+{"id": "q-006", "input": {"prompt": "The dashboard shows a blank page after I log in, everything else works."}, "expected": "technical", "slices": ["intent:technical"], "meta": {"domain": "support-intent"}}
+{"id": "q-007", "input": {"prompt": "API calls started returning 502 errors since this morning around 9am."}, "expected": "technical", "slices": ["intent:technical"], "meta": {"domain": "support-intent"}}
+{"id": "q-008", "input": {"prompt": "File uploads fail at ninety percent with a timeout message every single time."}, "expected": "technical", "slices": ["intent:technical"], "meta": {"domain": "support-intent"}}
+{"id": "q-009", "input": {"prompt": "The mobile app crashes when I open the reports tab on Android 15."}, "expected": "technical", "slices": ["intent:technical"], "meta": {"domain": "support-intent"}}
+{"id": "q-010", "input": {"prompt": "Webhooks are arriving out of order and sometimes twice for the same event."}, "expected": "technical", "slices": ["intent:technical"], "meta": {"domain": "support-intent"}}
+{"id": "q-011", "input": {"prompt": "I changed my phone number and now cannot receive the login code."}, "expected": "account", "slices": ["intent:account"], "meta": {"domain": "support-intent"}}
+{"id": "q-012", "input": {"prompt": "Please remove my old work email from the account and set the new one as primary."}, "expected": "account", "slices": ["intent:account"], "meta": {"domain": "support-intent"}}
+{"id": "q-013", "input": {"prompt": "How do I invite a colleague to our team workspace with admin rights?"}, "expected": "account", "slices": ["intent:account"], "meta": {"domain": "support-intent"}}
+{"id": "q-014", "input": {"prompt": "My account got locked after too many password attempts, please unlock it."}, "expected": "account", "slices": ["intent:account"], "meta": {"domain": "support-intent"}}
+{"id": "q-015", "input": {"prompt": "I want to transfer ownership of the organisation to another member."}, "expected": "account", "slices": ["intent:account"], "meta": {"domain": "support-intent"}}
+{"id": "q-016", "input": {"prompt": "What are your support hours during Indian public holidays?"}, "expected": "other", "slices": ["intent:other"], "meta": {"domain": "support-intent"}}
+{"id": "q-017", "input": {"prompt": "Where can I find the changelog for the October release?"}, "expected": "other", "slices": ["intent:other"], "meta": {"domain": "support-intent"}}
+{"id": "q-018", "input": {"prompt": "Do you integrate with Zoho Books through anything native or does it need Zapier?"}, "expected": "other", "slices": ["intent:other"], "meta": {"domain": "support-intent"}}
+{"id": "q-019", "input": {"prompt": "Can I get a copy of your data processing agreement before we roll this out?"}, "expected": "other", "slices": ["intent:other"], "meta": {"domain": "support-intent"}}
+{"id": "q-020", "input": {"prompt": "Is there a status page where I can subscribe to incident updates?"}, "expected": "other", "slices": ["intent:other"], "meta": {"domain": "support-intent"}}
